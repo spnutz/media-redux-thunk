@@ -37,7 +37,6 @@ const usersSlice = createSlice({
 
     builder.addCase(removeUser.pending, (state, action) => {
       state.isLoading = true;
-      console.log("pending");
     });
     builder.addCase(removeUser.fulfilled, (state, action) => {
       state.isLoading = false;
@@ -47,7 +46,6 @@ const usersSlice = createSlice({
     });
     builder.addCase(removeUser.rejected, (state, action) => {
       state.isLoading = false;
-      console.log(action);
       state.error = action.error;
     });
   },
