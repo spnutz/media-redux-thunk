@@ -11,7 +11,7 @@ export function useThunk(thunk) {
       // useCallback จะช่วยลดการสร้างฟังก์ชันใหม่ในทุกครั้งที่เกิดการเรียกใช้งานคอมโพเนนต์ของ React ที่มีการเปลี่ยนแปลงของพารามิเตอร์เข้ามาในการเรียกใช้งานฟังก์ชันนั้น ซึ่งส่งผลให้เกิดประสิทธิภาพการทำงานที่ดีขึ้น
       setIsLoading(true);
       dispatch(thunk(arg))
-        .unwrap()
+        .unwrap() // เพราะว่า return มาเป็น resolve ตลอด
         .catch((err) => setError(err))
         .finally(() => setIsLoading(false));
     },

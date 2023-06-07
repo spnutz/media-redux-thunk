@@ -3,8 +3,63 @@
     {
       "id": 1,
       "name": "Myra"
+    },
+    {
+      "name": "Lynn Armstrong",
+      "id": 2
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 10,
+      "title": "Jikimk Trip",
+      "userId": 1
+    },
+    {
+      "userId": 1,
+      "title": "Unbranded Soft Mouse",
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "title": "Modern Frozen Ball",
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "title": "Handmade Rubber Car",
+      "id": 13
+    },
+    {
+      "userId": 2,
+      "title": "Bespoke Soft Shirt",
+      "id": 14
+    },
+    {
+      "userId": 2,
+      "title": "Sleek Wooden Chair",
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "title": "Handmade Fresh Table",
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "title": "Ergonomic Plastic Pants",
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "title": "Generic Plastic Chips",
+      "id": 18
+    },
+    {
+      "userId": 1,
+      "title": "Luxurious Rubber Cheese",
+      "id": 19
+    }
+  ],
   "photos": []
 }
